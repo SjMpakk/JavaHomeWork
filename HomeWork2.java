@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Java homework: 2 lesson
  *
@@ -10,10 +8,13 @@ public class HomeWork2 {
     public static void main(String[] args) {
         System.out.println("Решение задания 1:");
         task1();
+        System.out.println();
         System.out.println("Решение задания 2:");
         task2();
+        System.out.println();
         System.out.println("Решение задания 3:");
         task3();
+        System.out.println();
         System.out.println("Решение задания 4:");
         task4();
         System.out.println("Решение задания 5:");
@@ -26,7 +27,8 @@ public class HomeWork2 {
             if (x[y] == 0) {
                 x[y] = 1;
             } else x[y] = 0;
-            System.out.println(Arrays.toString(x));
+        } for (int y : x) {
+            System.out.print(y + "");
         }
     }
 
@@ -35,7 +37,7 @@ public class HomeWork2 {
         int a = 0;
         for (int i = 0; i < x.length; i++, a = a + 3) {
             x[i] = a;
-            System.out.println(Arrays.toString(x));
+            System.out.print(x[i] + " ");
         }
     }
 
@@ -46,7 +48,7 @@ public class HomeWork2 {
             if (x[i] <= 6) {
                 x[i] = x[i] * 2;
             }
-            System.out.println(Arrays.toString(x));
+            System.out.print(x[i] + " ");
         }
     }
 
