@@ -2,7 +2,7 @@
  * Java homework: 2 lesson
  *
  * @author Alexey Denisov
- * @version dated Sep 16, 2018
+ * @version dated Sep 17, 2018
  */
 public class HomeWork2 {
     public static void main(String[] args) {
