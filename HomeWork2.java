@@ -8,14 +8,11 @@ public class HomeWork2 {
     public static void main(String[] args) {
         System.out.println("Решение задания 1:");
         task1();
-        System.out.println();
-        System.out.println("Решение задания 2:");
+        System.out.println("\nРешение задания 2:");
         task2();
-        System.out.println();
-        System.out.println("Решение задания 3:");
+        System.out.println("\nРешение задания 3:");
         task3();
-        System.out.println();
-        System.out.println("Решение задания 4:");
+        System.out.println("\nРешение задания 4:");
         task4();
         System.out.println("Решение задания 5:");
         task5();
