@@ -2,7 +2,7 @@
  * Java homework 3 lesson
  *
  * @author Alexey Denisov
- * @version dated Sep 20, 2018
+ * @version dated Sep 23, 2018
  */
 import java.util.Random;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class HomeWork3 {
         System.out.println("Ваша задача угадать число за 3 попытки");
         do {
             Random y = new Random();
-            int number = y.nextInt(9);
+            int number = y.nextInt(10);
             System.out.println("Угадайте число от 0 (включая 0, до 9 (Только целые числа)" + "\nВведите число:");
             int i;
             for (i = 1; i <= 3; i++) {
