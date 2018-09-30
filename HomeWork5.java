@@ -2,7 +2,7 @@
  * Java homework 5
  *
  * @author Alexey Denisov
- * @version dated Sep 27, 2018
+ * @version dated Sep 30, 2018
  */
 
 
@@ -28,8 +28,8 @@ public class HomeWork5 {
 }
 
 class Specialist {
-    String firstname, name, middlename, position, email;
-    int salary, age;
+    private String firstname, name, middlename, position, email;
+    private int salary, age;
 
     Specialist(String firstname, String name, String middlename, String position, String email, int salary, int age) {
         this.firstname = firstname;
